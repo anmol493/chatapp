@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="icon" href="/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/styles.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.1.0/mustache.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <!-- to access time -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.25.3/moment.min.js"></script>
+</head>
+<body>
+    <h1>Chat app</h1>
+    <div class='centered-form'>
+        <div class='centered-form__box'>
+            <form action="/home.html">
+                <label>Display Name</label>
+                <input type='text' name="username" placeholder="Display Name" required autocomplete="off">
+                <label>Room</label>
+                <input type="text" name="room" placeholder="Room" required autocomplete="off">
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
